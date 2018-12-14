@@ -1,0 +1,153 @@
+/* Setti BELKACEM, développeur web intégrateur junior.
+Au PoleS de Pantin, 11/2018
+les styles des pages de mon back */
+
+@charset "utf-8";
+
+.margin {
+  margin-top: 5rem;
+}
+
+.margine{
+    margin-left: 13%;
+}
+.color {
+    background: rgb(240, 230, 140);
+}
+
+/* -----------------------page connexion -------------------------*/
+
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+.login-block{
+background: #D8BFD8; 
+ /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #E6E6FA, #9370DB);
+  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #E6E6FA, #9370DB);
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+float:left;
+width:100%;
+padding : 50px 0;
+}
+
+.banner-sec{
+    /* background:url(https://static.pexels.com/photos/33972/pexels-photo.jpg)  no-repeat left bottom; */
+    background:url('../img/fond_connex.jpg')  no-repeat left bottom;
+    background-size:cover;
+    min-height:500px;
+    border-radius: 0 10px 10px 0; 
+    padding:0;
+}
+
+.connex{
+    background:#fff;
+    border-radius: 10px;
+    box-shadow:15px 20px 0px rgba(0,0,0,0.1);
+}
+.carousel-inner{
+    border-radius:0 10px 10px 0;
+}
+.carousel-caption{
+    text-align:left; left:5%;
+}
+.login-sec{
+    padding: 50px 30px;
+    position:relative;
+}
+.login-sec .copy-text{
+    position:absolute; 
+    width:80%; 
+    bottom:20px; 
+    font-size:13px; 
+    text-align:center;
+}
+.login-sec .copy-text i{
+    color:#E6E6FA;
+}
+.login-sec .copy-text a{
+    color:#483D8B;
+}
+.login-sec h2{
+    margin-bottom:30px; 
+    font-weight:800; 
+    font-size:30px; 
+    color: #483D8B;
+}
+.login-sec h2:after{
+    content:" "; 
+    width:100px; height:5px; background:#E6E6FA; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
+.btn-login{background: #483D8B; color:#fff; font-weight:600;}
+.banner-text{width:70%; position:absolute; bottom:40px; padding-left:20px;}
+.banner-text h2{color:#fff; font-weight:600;}
+.banner-text h2:after{content:" "; width:100px; height:5px; background:#FFF; display:block; margin-top:20px; border-radius:3px;}
+.banner-text p{color:#fff;}
+
+/* ------------fin connexion---------- */
+
+
+/* -----------------------style page Profil ------------------------*/
+.profil{
+    background:#FF1493;
+    border-radius: 10px;
+    box-shadow:15px 20px 0px rgba(0,0,0,0.1);
+}
+
+.header-img{
+    height: 500px;
+    position: relative;
+    width: 100%;
+    margin-top: 75px;
+}
+.header-img img{
+    width: 100%;
+    
+}
+.header-content{
+    background: rgb(255, 192, 203);
+    color: #FF1493;
+    height: 300px;
+    padding-top: 98px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    /* margin-top: 350px; */
+}
+.header-content h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.header-content p{
+    padding: 0px 150px;
+}
+.header-content:before{
+    position: absolute;
+    content: "Mes filles adorées : Ines et Sarah";
+    width: 60%;
+    height: 125px;
+    top: -50px;
+    left: 0;
+    background:rgb(255, 192, 203);
+    transform: skewY(10deg);
+}
+.header-content:after{
+    position: absolute;
+    content: "Maman";
+    width: 60%;
+    height: 125px;
+    top: -50px;
+    right: 0;
+    background:rgb(255, 192, 203);
+    transform: skewY(-10deg);
+}
+
+
+/* ------------competences---------- */
+
+
+
+ 
+
+
+
+
